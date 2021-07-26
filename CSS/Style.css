@@ -1,0 +1,32 @@
+a.Scroll_Up {
+    margin-top:20px;
+    margin-right: 20px;
+    display: block;
+    text-align: right;
+  }
+
+   div.MyDiv {
+    /*border: 1px solid #000; /* Чёрная рамка */
+    overflow:hidden;
+    
+   }
+
+   .rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+   img{
+    vertical-align: top;  
+    border-radius: 5px; /* Уголки */
+   }
+
+
+   h1{
+       padding-top: 50px;
+       padding-bottom: 50px;
+   }
+
+
+
+

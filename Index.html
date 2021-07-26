@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Портфолио</title>
+
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#top">Антон Антонов</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#about">Обо мне</a>
+                        <a class="nav-item nav-link active" href="#technologies">Используемые технологии / Навыки</a>
+                        <a class="nav-item nav-link active" href="#projects">Проекты</a>
+                        <a class="nav-item nav-link active" href="#contacts">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <p><a name="about"></a></p>
+    <div class="MyDiv container text-left">
+        <h1>Обо мне</h1>
+        <img class="rightimg " src="img/My_Photo.jpg" width=30% height=30%>
+        <p class="lead ">
+            .Net Web разработчик без опыта коммерческой разработки. Программирую на c# 1,5 года. Претендую на
+            вакансию Junior .NET разрботчик. Свободно владею украинским и русским языком. Английский уровень B1. Работаю
+            в ide Visual Studio и Visual Studio code. Использую систему контроля версий git.
+            Город: Харьков. 20 лет, учусь на 3 курсе Харьковского национального университета
+            радиоэлектроники, факультет КН специальность КН. Готов совмещать полный рабочий день с обучением в вузе.
+        </p>
+        <p class="lead ">
+            Телефон для связи: +380684387784
+        </p>
+    </div>
+
+    <p><a name="technologies"></a></p>
+    <div class="MyDiv container text-left">
+        <h1>Используемые технологии и навыки</h1>
+        <img class="rightimg " src="img/technologies.jpg" width=50% height=50%>
+        <ul id="my-list" class="list-group">
+            <li class="list-group-item"> .Net C# basics </li>
+            <li class="list-group-item"> OOP and SOLID</li>
+            <li class="list-group-item"> Web API</li>
+            <li class="list-group-item"> English level - B1</li>
+            <li class="list-group-item"> MS SQL and SQL</li>
+            <li class="list-group-item"> HTML/CSS</li>
+            <li class="list-group-item"> .Net Core</li>
+            <li class="list-group-item"> .NET Framework</li>
+            <li class="list-group-item"> ASP.NET Core</li>
+            <li class="list-group-item"> JS basics</li>
+            <li class="list-group-item"> Entity Framework</li>
+        </ul>
+    </div>
+
+    <p><a name="projects"></a></p>
+    <div class="MyDiv container text-left">
+        <h1>Проекты</h1>
+        <p class="lead">
+            Веб приложение ИС Отель написанное на ASP.NET Core позволяет пользователю совершать онлайн бронирования
+            комнат, смотреть список своих бронирований и проверять их статус. А администратору обрабатывать новые
+            бронирования, и управлять данными (аккаунтами, комнатами, категориями, бронированиями). В проекте
+            использовалась трёхуровненвая архитектура состоящая из уровня бизнес логики, уровня работы с данными и
+            уровня презентации. Базой данных для приложения был выбран MSSQL Server. Для работы с базой данных
+            используется ORM Entity Framework. Уровень представления - MVC ASP.NET Core. В решении
+            присутвует WEB API. Для авторизации, аутентификации и разбиения аккаунтов на роли используется Core
+            Identity.
+        </p>
+        <p class="lead">
+            Скриншоты проекта:
+        </p>
+    </div>
+
+
+
+    <div id="carouselExampleIndicators" class="MyDiv container carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="img/ProjExample1.jpg" alt="Первый слайд">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="img/ProjExample2.jpg" alt="Второй слайд">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+
+
+    <a class="Scroll_Up" href="#top"><img src="img/Up_arrow.png" width="64" height="64"> </a>
+    <p><a name="contacts"></a></p>
+    <footer>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="https://t.me/anton_antonov01">Связяться в телеграмм</a>
+                    <a class="nav-item nav-link active" href="https://github.com/Anton-Antonov01">Github</a>
+                    <a class="nav-item nav-link active" href="#">linkedin</a>
+                </div>
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
